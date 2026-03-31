@@ -926,7 +926,7 @@
                     <div class="validity-info">
                         <div class="remaining">noch <span id="daysRemaining">13</span> Tage, <span id="timeRemaining">03:50:48</span></div>
                         <div class="gultig">gültig</div>
-                        <div class="ticket-id">DT-8Z5EJCBUQKE5NVXYF</div>
+                        <div class="ticket-id">DT-7Z5EJCBUQKE5NVXYF</div>
                     </div>
                 </div>
 
@@ -1040,8 +1040,8 @@
     <script>
         // 票据数据
         const ticketData = {
-            startDate: "2026-03-01",
-            endDate: "2026-03-31"
+            startDate: "2026-04-01",
+            endDate: "2026-04-30"
         };
 
         // 格式化日期显示 (YYYY-MM-DD -> DD.MM.YYYY)
@@ -1061,7 +1061,7 @@
             
             // 目标结束时间：2026年4月30日 23:59:59 (德国时间)
             // 注意：JavaScript Date 月份从 0 开始，4月是 3
-            const targetGerman = new Date(2026, 2, 31, 23, 59, 59, 999);
+            const targetGerman = new Date(2026, 3, 31, 23, 59, 59, 999);
             
             // 计算时差（本地时间与德国时间的差异）
             const localNow = new Date();
